@@ -3,15 +3,15 @@
 
 Research assistantship under the supervision of Pr. Gregory Corcos, Head of the Economics Department at Ecole Polytechnique
 
-<img src="/outputs/evolution_entreprises_pct.png" width="50%" alt="Percentage of targeted companies over time">
+<img src="Code/outputs/evolution_entreprises_pct.png" width="50%" alt="Percentage of targeted companies over time">
 
 This repository contains all the code, data, and prompts documenting the replication of the methodology introduced by Clayton, Coppola, Maggiori, and Schreger (2025). The primary objective of this project is to systematically identify and quantify geoeconomic pressures (tariffs, export controls, and sanctions) exerted by governments, leveraging corporate earnings calls. The analysis specifically focuses on identifying "chokepoint" characteristics within global value chains.
 
-<img src="outputs/sankey.png" width="50%" alt="Bilateral flows of geoeconomic pressure">
+<img src="Code/outputs/sankey.png" width="50%" alt="Bilateral flows of geoeconomic pressure">
 
 The study leverages 530 earnings call transcripts from 99 major S&P 500 companies (across tech, finance, industry, etc.), retrieved using a custom scraping algorithm. The pipeline transforms these massive unstructured text corpora into structured datasets using Large Language Models (LLMs).
 
-<img src="outputs/evolution_companies_errorbars.png" width="50%" alt="Evolution of pressured companies by measure type">
+<img src="Code/outputs/evolution_companies_errorbars.png" width="50%" alt="Evolution of pressured companies by measure type">
 
 #### Important Note on Dataset Representativeness
 
