@@ -39,6 +39,8 @@ Please note that the dataset obtained is not representative of global trade dyna
 The repository is organized as follows:
 
 * **`Code/`**: Contains processing scripts and notebooks.
+  * **`outputs/`**: Target directory for exported charts (e.g., static PNG images).
+
   * `Chokepoints_analysis_plots.ipynb` and `Paper_replication_plotting.ipynb`: Jupyter Notebooks responsible for metadata cleaning and visualization generation.
   * `Scraping_transcripts.py`: Script dedicated to extracting earnings call transcripts.
   * `Request_mistral.py`: Script handling requests to the secondary LLM API for data auditing.
@@ -48,7 +50,6 @@ The repository is organized as follows:
   * `BACI_HS17_Y2018_V202601.csv` and associated nomenclature files for global trade flow analysis.
 * **`Prompts/`**: Directory storing the textual instructions provided to the models.
   * Original Word documents (`Prompt_original_1.docx`, `Prompt_original_2.docx`) and Python implementations (`Prompts_clayton.py`, `Prompts_mistral.py`).
-* **`outputs/`**: Target directory for exported charts (e.g., static PNG images).
 * **`Geoeconomic_Pressure.pdf`**: The final analysis report detailing the replication's findings.
 
 ## Key Features
