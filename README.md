@@ -1,10 +1,9 @@
 # Geoeconomic Pressure Analysis: Replication and Chokepoint Analysis
-===
 
 
 Research assistantship under the supervision of Pr. Gregory Corcos, Head of the Economics Department at Ecole Polytechnique
 
-<img src="oCode/outputs/evolution_entreprises_pct.png" width="50%" alt="Percentage of targeted companies over time">
+<img src="/outputs/evolution_entreprises_pct.png" width="50%" alt="Percentage of targeted companies over time">
 
 This repository contains all the code, data, and prompts documenting the replication of the methodology introduced by Clayton, Coppola, Maggiori, and Schreger (2025). The primary objective of this project is to systematically identify and quantify geoeconomic pressures (tariffs, export controls, and sanctions) exerted by governments, leveraging corporate earnings calls. The analysis specifically focuses on identifying "chokepoint" characteristics within global value chains.
 
