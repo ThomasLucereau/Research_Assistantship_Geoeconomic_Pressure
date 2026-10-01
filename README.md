@@ -4,6 +4,9 @@
 
 This repository contains all the code, data, and prompts documenting the replication of the methodology introduced by Clayton, Coppola, Maggiori, and Schreger (2025). The primary objective of this project is to systematically identify and quantify geoeconomic pressures (tariffs, export controls, and sanctions) exerted by governments, leveraging corporate earnings calls. The analysis specifically focuses on identifying "chokepoint" characteristics within global value chains.
 
+![Bilateral flows of geoeconomic pressure](Code/outputs/sankey.png)
+
+
 The study leverages 530 earnings call transcripts from 99 major S&P 500 companies (across tech, finance, industry, etc.), retrieved using a custom scraping algorithm. The pipeline transforms these massive unstructured text corpora into structured datasets using Large Language Models (LLMs).
 
 ## Project Architecture
