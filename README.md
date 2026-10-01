@@ -11,7 +11,7 @@ This repository contains all the code, data, and prompts documenting the replica
 
 The study leverages 530 earnings call transcripts from 99 major S&P 500 companies (across tech, finance, industry, etc.), retrieved using a custom scraping algorithm. The pipeline transforms these massive unstructured text corpora into structured datasets using Large Language Models (LLMs).
 
-![Evolution of pressure per sector](Code/outputs/evolution_sectors.png)
+![Evolution of pressured companies by measure type](Code/outputs/evolution_companies_errorbars.png)
 
 
 #### Important Note on Dataset Representativeness
