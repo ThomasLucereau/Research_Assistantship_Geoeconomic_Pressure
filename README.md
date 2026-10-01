@@ -1,6 +1,6 @@
 # Geoeconomic Pressure Analysis: Replication and Chokepoint Analysis
 
-![Percentage of targeted companies over time](outputs/evolution_entreprises_pct.png)
+![Percentage of targeted companies over time](code/outputs/evolution_entreprises_pct.png)
 
 This repository contains all the code, data, and prompts documenting the replication of the methodology introduced by Clayton, Coppola, Maggiori, and Schreger (2025). The primary objective of this project is to systematically identify and quantify geoeconomic pressures (tariffs, export controls, and sanctions) exerted by governments, leveraging corporate earnings calls. The analysis specifically focuses on identifying "chokepoint" characteristics within global value chains.
 
