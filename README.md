@@ -15,7 +15,7 @@ This repository contains all the code, data, and prompts documenting the replica
 <br>
 
 <p align="center">
-<img src="Code/outputs/sankey.png" width="75%" alt="Bilateral flows of geoeconomic pressure">
+<img src="Code/outputs/sankey.png" width="90%" alt="Bilateral flows of geoeconomic pressure">
 </p>
 
 <br>
