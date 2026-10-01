@@ -2,7 +2,8 @@
 
 <br>
 Research assistantship under the supervision of Pr. Gregory Corcos, Head of the Economics Department at Ecole Polytechnique
-<br>
+<br><br>
+
 
 <p align="center">
 <img src="Code/outputs/evolution_entreprises_pct.png" width="75%" alt="Percentage of targeted companies over time">
