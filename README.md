@@ -1,25 +1,35 @@
 # Geoeconomic Pressure Analysis: Replication and Chokepoint Analysis
 
-<br><br><br>
+<br>
 Research assistantship under the supervision of Pr. Gregory Corcos, Head of the Economics Department at Ecole Polytechnique
 <br><br><br>
 
 <p align="center">
 <img src="Code/outputs/evolution_entreprises_pct.png" width="75%" alt="Percentage of targeted companies over time">
 </p>
+
 <br><br>
+
 This repository contains all the code, data, and prompts documenting the replication of the methodology introduced by Clayton, Coppola, Maggiori, and Schreger (2025). The primary objective of this project is to systematically identify and quantify geoeconomic pressures (tariffs, export controls, and sanctions) exerted by governments, leveraging corporate earnings calls. The analysis specifically focuses on identifying "chokepoint" characteristics within global value chains.
+
 <br><br>
+
 <p align="center">
 <img src="Code/outputs/sankey.png" width="75%" alt="Bilateral flows of geoeconomic pressure">
 </p>
+
 <br><br>
+
 The study leverages 530 earnings call transcripts from 99 major S&P 500 companies (across tech, finance, industry, etc.), retrieved using a custom scraping algorithm. The pipeline transforms these massive unstructured text corpora into structured datasets using Large Language Models (LLMs).
+
 <br><br>
+
 <p align="center">
 <img src="Code/outputs/evolution_companies_errorbars.png" width="75%" alt="Evolution of pressured companies by measure type">
 </p>
+
 <br><br>
+
 #### Important Note on Dataset Representativeness
 
 Please note that the dataset obtained is not representative of global trade dynamics, as Chinese and third-party companies are missing from the scraped transcripts (which focus exclusively on US firms). Consequently, the graphs in the code and the report that may appear one-sided or incomplete must be interpreted accordingly. The primary goal of the following report and notebooks is to establish and validate a functioning analysis pipeline rather than to provide an exhaustive macroeconomic assessment.
